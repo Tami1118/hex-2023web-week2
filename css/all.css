@@ -62,13 +62,21 @@ body {
   line-height: 1.5;
 }
 
-.container {
-  max-width: 1296px;
-  margin: 0 auto;
+button {
+  font-family: "Bruno Ace SC", cursive;
+}
+
+ul, li {
+  margin: 0;
 }
 
 img, svg {
   vertical-align: middle;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -77,6 +85,11 @@ a {
 a:hover {
   color: #00FFA3;
   cursor: pointer;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
 }
 
 .h1 {
@@ -97,6 +110,7 @@ a:hover {
 
 .fs-2 {
   font-size: 24px;
+  line-height: 36px;
 }
 
 .fs-3 {
@@ -109,6 +123,10 @@ a:hover {
 
 .bg-white {
   background: #fff;
+}
+
+.bg-gradient {
+  background-image: linear-gradient(#050014, #01021E);
 }
 
 .text-primary {
@@ -131,8 +149,20 @@ a:hover {
   display: inline-block;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 .flex-col-reverse {
   flex-direction: column-reverse;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
 }
 
 .justify-between {
@@ -151,12 +181,37 @@ a:hover {
   text-align: right;
 }
 
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-162 {
+  width: 162px;
+}
+
+.w-178 {
+  width: 178px;
+}
+
 .w-306 {
   width: 306px;
 }
 
+.w-526 {
+  width: 526px;
+}
+
 .w-636 {
   width: 636px;
+}
+
+.w-746 {
+  width: 746px;
+}
+
+.p-16 {
+  padding: 16px;
 }
 
 .py-12 {
@@ -183,18 +238,70 @@ a:hover {
   padding-bottom: 72px;
 }
 
+.py-96 {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.py-160 {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
 .ms-auto {
   margin-left: auto;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.my-4 {
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 .ms-4 {
   margin-left: 4px;
 }
 
-.rounded-32 {
-  border-radius: 32px;
+.ms-16 {
+  margin-left: 16px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.me-24 {
+  margin-right: 24px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-36 {
+  margin-bottom: 26px;
 }
 
 .border-0 {
   border: none;
+}
+
+.border-1 {
+  border: 0.5px solid #dcdcdc;
+}
+
+.rounded-32 {
+  border-radius: 32px;
+}
+
+.intro {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+  background-position: center;
 }/*# sourceMappingURL=all.css.map */
