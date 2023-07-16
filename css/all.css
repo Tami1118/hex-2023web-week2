@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -52,6 +53,148 @@ table {
   border-spacing: 0;
 }
 
-img {
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bruno Ace SC", cursive;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+img, svg {
   vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #00FFA3;
+  cursor: pointer;
+}
+
+.h1 {
+  font-size: 128px;
+}
+
+.h2 {
+  font-size: 40px;
+}
+
+.fs-slogan {
+  font-size: 56px;
+}
+
+.fs-1 {
+  font-size: 32px;
+}
+
+.fs-2 {
+  font-size: 24px;
+}
+
+.fs-3 {
+  font-size: 20px;
+}
+
+.bg-black {
+  background: #000;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.text-primary {
+  color: #00FFA3;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: right;
+}
+
+.w-306 {
+  width: 306px;
+}
+
+.w-636 {
+  width: 636px;
+}
+
+.py-12 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.px-24 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.py-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.py-72 {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.ms-auto {
+  margin-left: auto;
+}
+
+.ms-4 {
+  margin-left: 4px;
+}
+
+.rounded-32 {
+  border-radius: 32px;
+}
+
+.border-0 {
+  border: none;
 }/*# sourceMappingURL=all.css.map */
